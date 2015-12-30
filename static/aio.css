@@ -1,0 +1,275 @@
+/*!/style.css*/
+
+body,
+ul,
+li,
+a,
+p,
+span {
+    margin: 0;
+    padding: 0
+}
+
+input {
+    outline: 0
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    font: 12px arial
+}
+
+body,
+p,
+form {
+    list-style: none
+}
+
+#wrapper {
+    min-width: 810px;
+    height: 100%;
+    min-height: 600px;
+    position: relative
+}
+
+#head {
+    height: 100%
+}
+
+#head .head_wrapper {
+    height: 100%
+}
+
+.head_wrapper {
+    text-align: center
+}
+
+.s_form {
+    top: 38.2%;
+    position: relative
+}
+
+.s_form_wrapper {
+    top: -191px;
+    position: relative
+}
+
+#u1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 19px 0 5px;
+    padding: 0 96px 0 0
+}
+
+#u1 a.mnav {
+    float: left;
+    color: #333;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline
+}
+
+#u1 a.lb {
+    display: inline-block;
+    float: left;
+    color: #333;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: underline
+}
+
+#u1 a.bri {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    margin-left: 19px;
+    margin-right: 2px
+}
+
+#u1 a:hover {
+    color: #3385ff
+}
+
+#ftn {
+    height: 100px;
+    position: absolute;
+    bottom: 44px;
+    text-align: center;
+    width: 100%
+}
+
+#form {
+    margin: 22px auto 0;
+    width: 650px;
+    text-align: left
+}
+
+.s_ipt_wr {
+    border: 1px solid #b6b6b6;
+    display: inline-block;
+    *display: inline-block;
+    width: 539px;
+    height: 34px;
+    display: -moz-inline-box
+}
+
+#kw {
+    width: 526px;
+    height: 22px;
+    margin-left: 7px;
+    margin-top: 6px;
+    border: 0
+}
+
+.s_btn {
+    width: 100px;
+    height: 37px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    cursor: pointer;
+    margin-left: -5px
+}
+
+.s_btn:hover {
+    background-color: #2d78f4
+}
+
+.s_ipt_wr:hover {
+    border: 1px solid #3385ff
+}
+
+img {
+    width: 270px;
+    height: 129px
+}
+
+#ft {
+    height: 100px;
+    position: absolute;
+    bottom: 44px;
+    text-align: center;
+    width: 100%
+}
+
+#lh {
+    margin: 16px 0 5px
+}
+
+#lh a {
+    margin: 0 10px;
+    color: #3385ff
+}
+
+#cp,
+#cp a {
+    color: #666
+}
+
+#cp .icon {
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(../icons.png) no-repeat;
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px
+}
+
+.head_wrapper .bdbri {
+    display: none;
+    width: 85px;
+    min-height: 100%;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    z-index: 2;
+    right: 0;
+    top: 0
+}
+
+.head_wrapper .bdbriimgtitle {
+    color: #333;
+    text-align: center;
+    width: 66px;
+    height: 43px;
+    line-height: 43px;
+    padding-top: 9px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid
+}
+
+.bdbriwrapper a {
+    display: block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden
+}
+
+#wrapper .bdbri.bdbriimg span {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto 5px;
+    cursor: pointer;
+    display: block
+}
+
+.bdbri.bdbriimg span.bdbriimgitem_1 {
+    background: url(../more.png) 0 0 no-repeat
+}
+
+.bdbriimgitem_2 {
+    background: url(../more.png) -36px 0 no-repeat
+}
+
+.bdbriimgitem_7 {
+    background: url(../more.png) -220px 0 no-repeat
+}
+
+a .bdbriimgitem_3 {
+    width: 40px;
+    background: url(../more.png) -72px 0 no-repeat
+}
+
+.bdbriimgitem_4 {
+    background: url(../more.png) -112px 0 no-repeat
+}
+
+.bdbriimgitem_5 {
+    background: url(../more.png) -148px 0 no-repeat
+}
+
+.bdbriimgitem_6 {
+    background: url(../more.png) -184px 0 no-repeat
+}
+
+.bdbriimgitem_7 {
+    background: url(../more.png) -220px 0 no-repeat
+}

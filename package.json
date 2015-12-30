@@ -1,0 +1,14 @@
+{
+  "name": "fis-quickstart-demo",
+  "version": "0.0.10",
+  "description": "a fis quick get started demo",
+  "keywords": [
+    "fis",
+    "demo"
+  ],
+  "repository": "https://github.com/hefangshi/fis-quickstart-demo",
+  "license": "MIT",
+  "devDependencies": {
+    "fis-postpackager-simple": "0.0.26"
+  }
+}
